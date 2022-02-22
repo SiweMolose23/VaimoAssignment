@@ -1,0 +1,187 @@
+.assuranceTxt{
+    margin-bottom:12px;
+    text-align:left;
+    color: #999999;
+    font-size:12px;
+}
+
+.lock {
+    width: 12px;
+    height: 14px;
+}
+td{
+    padding-left:12px;
+    
+}
+.sale{
+    height:20px;
+    width: 111px;
+    border-radius:2px;
+    color:#999999;
+    font-size: 12px;
+    line-height: 16px;
+    background-color:#EDF0F3;
+    justify-content: center;
+}
+
+
+.bold{
+    font-weight:bold;
+    font-size:14px;
+}
+.icons{
+    width:17px;
+    height:12px;
+    margin-right:4px;
+}
+
+.iconPlay{
+    width:28px;
+    height:12px;   
+}
+.options{
+    color: #999999;
+    text-align:left;
+}
+.discount{
+    color: #999999;
+}
+.tableOptions{
+    width:526px;
+    height:144px;
+}
+tr{
+    height:40px;
+}
+
+.time{
+    width: 16px;
+    height: 16px;
+    margin-top:4px;
+}
+.banner{
+    width:526px;
+    height:40px;
+    background-color:#FFF0E6;
+    color: #FF6600;
+    justify-content: center;
+}
+.expo{
+    width:76px;
+    height:40px;
+    justify-content: center;
+    
+}
+.bannerList{
+padding:0;
+margin-left: 12px;
+margin-top:0;
+margin-right:0;
+margin-bottom: 0;
+display:inline-block;
+}
+.bannerList li{
+padding-bottom: 12px;
+margin-left:24px;
+    justify-content:center;
+    float: left;
+    text-align:left;
+    font-size:14px;
+    line-height: 16px;
+}
+.borderBoxMinus{
+    width:40px;
+    height: 40px;
+    border:1px solid #7c7a79;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    display:inline-block;
+    cursor:pointer;
+}
+.borderBoxPlus{
+    width:40px;
+    height: 40px;
+    border:1px solid #FF6600;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    display:inline-block;
+    cursor:pointer;
+}
+.plus{
+    width:14px;
+    height: 14px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+
+}
+
+.minus{
+width:14px;
+height: 14px;
+padding: 10px 10px 10px 10px;
+justify-content: center;
+}
+input{
+    border:1px solid #E6E7EB;
+    box-shadow: inset 0 1px 0 0 #E6E7EB;
+    width: 80px;
+    height: 38px;
+    justify-content: center;
+    text-align:center;
+    display:inline-block;
+}
+.inputOption{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+input::-webkit-outer-spin-button,
+input::webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.bannerTxt{
+    width:8px;
+    height:14px;
+    display:inline-block;
+    padding-bottom:14px;
+    padding-left:12px;
+
+}
+.star{
+    width: 14px;
+    height:14px;
+    padding-right:4px;
+}
+.gradient{
+    color:#FFFFFF;
+    background-image: linear-gradient(#F5515F, #FF7527);
+    width:90px;
+    height:20px;
+    border-radius: 2px 0 0 2px;
+    font-size:12px;
+    line-height:16px;
+}
+.bgColor{
+    color: #FF6600;
+    background-color:#FFF0E6;
+    font-size: 12px;
+    width:106px;
+    height:20px;
+    align-items: center;
+    padding-left:8px;
+    padding-right:8px;
+    justify-content:content;
+}
+.ok{
+    width:12px;
+    height:12px;
+    
+    margin-top:12px;
+}

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useRef, useEffect } from 'react'
+import ProductPage from './ProductPage';
+import ProductImage from './ProductImage';
+import Shipping from './Shipping';
+import styles from './styles/App.css'
 
 function App() {
+  //const [todos, setTodos] = useState([])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //A fragment <></> allows you to have multiple html elements 
+    <>
+    <div className='flexContainer'>
+      <div className='left'>
+    <ProductImage/>
     </div>
+    <div className='middle'>
+      <ProductPage min={0} max ={10}/> 
+      </div>
+      <div className ='right'> 
+      <Shipping/>
+      </div>  
+      </div>
+  </>
   );
 }
 

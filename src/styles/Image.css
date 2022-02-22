@@ -1,0 +1,11 @@
+.productImage{
+    width: 50%;
+    height: 50%;
+    border-color: blue;
+    border-style: dotted; 
+}
+img{
+    width: 416px;
+    height: 416px;
+    
+}
